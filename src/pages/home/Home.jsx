@@ -17,8 +17,8 @@ const Home = () => {
           <Widget type="balance"></Widget>
         </div>
         <div className="charts">
-          <Chart type="order"></Chart>
-          <Chart type="earning"></Chart>
+          <Chart type="order" aspect={2/1}/>
+          <Chart type="earning" aspect={2/1}/>
         </div>
       </div>
     </div>
